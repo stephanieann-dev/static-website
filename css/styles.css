@@ -13,9 +13,9 @@ body{
 
 }
 body {
-    background-color:yellow;
+    background-color:#FCF9BE;
     font-family: 'Cinzel', serif;
-    color:#D989B5;
+    color:#F06292;
 }
 #my-avatar {
     width:150px;
@@ -27,7 +27,7 @@ body {
 }
 #my-name{
 font-family: 'Niconne', cursive;
-color:blue;
+color:#0015ff;
 }
 #left-side{
     width: 49%;
@@ -41,7 +41,7 @@ color:blue;
 a{
     color: #5800FF;
     text-decoration: none;
-    border-bottom: 1px dotted #A555EC;
+    border-bottom: 1px dotted hsl(308, 80%, 63%);
 }
 header{
     margin-top: 16px;
@@ -62,4 +62,3 @@ footer{
 footer a:first-child{
     margin-right: 16px;
 }
-]
