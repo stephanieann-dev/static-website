@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Niconne&display=swap');
 body {
     background-color:yellow;
-
+    font-family: 'Cinzel', serif;
+    color:midnightblue;
 }
 h1{
     color:royalblue;
@@ -17,4 +19,8 @@ p{
 
 #content {
     text-align: center;
+}
+#my-name {
+font-family: 'Niconne', cursive;
+color:blue;
 }
