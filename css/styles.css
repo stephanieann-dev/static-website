@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Niconne&display=swap');
+/*CSS reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color:yellow;
     font-family: 'Cinzel', serif;
-    color:midnightblue;
-}
-h1{
-    color:royalblue;
-}
-h2{
-    color:#53008e;
-}
-p{
-    color:black:
+    color:#A555EC;
 }
 #my-avatar {
     width:150px;
+    
 }
 
 #content {
     text-align: center;
 }
-#my-name {
+#my-name{
 font-family: 'Niconne', cursive;
 color:blue;
 }
