@@ -19,6 +19,7 @@ body {
 }
 #my-avatar {
     width:150px;
+    border-radius:50%;
     
 }
 
@@ -47,13 +48,11 @@ a{
     color: #5800FF;
     text-decoration: none;
     border-bottom: 1px dotted hsl(308, 80%, 63%);
-
+}
 footer{
     
     position:absolute;
     bottom: 16px;
-    margin-left:auto;
-    margin-right: auto;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -68,4 +67,48 @@ footer a:first-child{
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+
+/* PROJECT PAGE */
+#hero-banner {
+    background: linear-gradient(150deg, #ff00fb, #f2ff00, magenta);
+    padding-top: 16px;
+    padding-bottom:16px;
+}
+#hero-banner > div{
+    width:50%;
+    margin:0 auto;
+}
+#hero-banner > div > div {
+    display: inline-block;
+}
+#hero-banner h1,
+#hero-banner h2{
+    color: rgb(7, 45, 236);
+}
+h3{
+    text-align: center;
+    font-size: 32px;
+}
+
+/* FOR VERSION 2 */
+
+header{
+    margin-top: 16px;
+}
+header > nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
+}
+footer > a > svg{
+    width: 24px;
+    height: 24pc;
+    margin-right: 8px;
+    fill: red;
 }
