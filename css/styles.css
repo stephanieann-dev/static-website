@@ -17,6 +17,14 @@ body {
     font-family: 'Cinzel', serif;
     color:#F06292;
 }
+header{
+    
+   /* height: auto; */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 16px;
+}
 #my-avatar {
     width:150px;
     border-radius:50%;
@@ -32,25 +40,22 @@ font-family: 'Niconne', cursive;
 color:#0015ff;
 }
 #left-side{
-    position: absolute;
-    top: 16px;
-    left: 16px;
-}
-#left-side > a {
-    margin-right: 16px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
 }
 #right-side{
-    position: absolute;
+    /*position: absolute;
     top: 16px;
-    right: 16px;
+    right: 16px; */
 }
 a{
     color: #5800FF;
     text-decoration: none;
-    border-bottom: 1px dotted hsl(308, 80%, 63%);
+  
 }
 footer{
-    
+    background-color: #FCF9BE;
     position:absolute;
     bottom: 16px;
     left: 50%;
@@ -60,7 +65,7 @@ footer a:first-child{
     margin-right: 16px;
 }
 #content div{
-    
+    background-color: #FCF9BE;
     width: 60%;
     position: absolute;
     top: 50%;
@@ -73,8 +78,6 @@ footer a:first-child{
 /* PROJECT PAGE */
 #hero-banner {
     background: linear-gradient(150deg, #ff00fb, #f2ff00, magenta);
-    padding-top: 16px;
-    padding-bottom:16px;
 }
 #hero-banner > div{
     width:50%;
