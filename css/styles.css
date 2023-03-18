@@ -71,7 +71,7 @@ footer a:first-child{
     margin-right: 16px;
 }
 #content div{
-    background-color: #FCF9BE;
+    background-color: #fcfabe;
     width: 100vw; /*VW -> viewport width*/
     position: absolute;
     top: 50%;
