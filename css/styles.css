@@ -88,8 +88,10 @@ footer a:first-child{
 
 }
 #hero-banner > div{
-    width:50%;
-    margin:0 auto;
+    width:100vw;
+    display: flex;
+    column-gap: 16px;
+    padding: 16px;
 }
 #hero-banner > div > div {
     display: inline-block;
@@ -97,6 +99,12 @@ footer a:first-child{
 #hero-banner h1,
 #hero-banner h2{
     color: rgb(7, 45, 236);
+}
+#hero-banner h1{
+    font-size: 2rem;
+}
+#hero-banner h2{
+    font-size: 0.9rem;
 }
 h3{
     text-align: center;
