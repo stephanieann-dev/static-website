@@ -12,6 +12,9 @@
         body{
             height: auto;
         }
+        section#projects{
+            padding-bottom: 100px;
+        }
 
         section.project > img{
             width: 100%;
@@ -23,7 +26,6 @@
          }
          ul.techs{
             list-style: none;
-            padding: 16px;
             text-align: center;
             
          }
@@ -35,10 +37,27 @@
             display: inline-block;
          }
          ul.techs > li:not(:last-child)::after {
-            content: ",";
+            content: ", ";
          }
         footer {
             position: initial;
+        }
+
+        /* TABLET DEVICE */
+        @media (min-width: 426px) and (max-width: 768px){
+            section#projects{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                column-gap: 2%;
+                row-gap: 16px;
+
+            }
+            section.project{
+                width: 49%;
+                background-color: rgb(241, 224, 110);
+            }
+
         }
 
     </style>
@@ -78,118 +97,100 @@
     <!-- A collection of Projects-->
     <section id="projects">
         <section class="project">
-        <!--
-            1. Snap shot of the project
-            2. Project Name
-            3. Technologies (list of web technology)used to create the project
-            4. Short description about the project
-        -->
             <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
-                 alt=" place holder image of a project"> 
-            <!--Snapshot of the project-->
-    <h3>Project 1</h3> <!-- Project name-->
-    <ul class="techs"> <!--list of web technologies used-->
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
-        hic corporis tempore eaque perferendis, voluptates consequatur autem 
-        omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
-        corrupti, unde in!</p>
-        </section>
+                         alt=" place holder image of a project">
+            <h3>Project 1</h3> <!-- Project name-->
+            <ul class="techs"> <!--list of web technologies used-->
+                <li>HTML</li>
+                <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+            hic corporis tempore eaque perferendis, voluptates consequatur autem 
+            omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
+            corrupti, unde in!</p>
+            </section>
+            <section class="project">
+                <!--
+                    1. Snap shot of the project
+                    2. Project Name
+                    3. Technologies (list of web technology)used to create the project
+                    4. Short description about the project
+                -->
+                    <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
+                         alt=" place holder image of a project"> 
+                    <!--Snapshot of the project-->
+            <h3>Project 2</h3> <!-- Project name-->
+            <ul class="techs"> <!--list of web technologies used-->
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+                hic corporis tempore eaque perferendis, voluptates consequatur autem 
+                omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
+                corrupti, unde in!</p>
+                </section>
+            <section class="project">
+                <!--
+                    1. Snap shot of the project
+                    2. Project Name
+                    3. Technologies (list of web technology)used to create the project
+                    4. Short description about the project
+                -->
+                    <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
+                         alt=" place holder image of a project"> 
+                    <!--Snapshot of the project-->
+            <h3>Project 3</h3> <!-- Project name-->
+            <ul class="techs"> <!--list of web technologies used-->
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+                hic corporis tempore eaque perferendis, voluptates consequatur autem 
+                omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
+                corrupti, unde in!</p>
+                </section>
+            <section class="project">
+                <!--
+                    1. Snap shot of the project
+                    2. Project Name
+                    3. Technologies (list of web technology)used to create the project
+                    4. Short description about the project
+                -->
+                    <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
+                         alt=" place holder image of a project"> 
+                    <!--Snapshot of the project-->
+            <h3>Project 4</h3> <!-- Project name-->
+            <ul class="techs"> <!--list of web technologies used-->
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+                hic corporis tempore eaque perferendis, voluptates consequatur autem 
+                omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
+                corrupti, unde in!</p>
+                </section>
+            
+                <section class="project">
+                    <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
+                    alt=" place holder image of a project"> 
+               <!--Snapshot of the project-->
+       <h3>Project 5</h3> <!-- Project name-->
+       <ul class="techs"> <!--list of web technologies used-->
+           <li>HTML</li>
+           <li>CSS</li>
+           <li>JavaScript</li>
+       </ul>
+       <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
+           hic corporis tempore eaque perferendis, voluptates consequatur autem 
+           omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
+           corrupti, unde in!</p>
+                </section>
 
     </section>
-    <section class="project">
-        <!--
-            1. Snap shot of the project
-            2. Project Name
-            3. Technologies (list of web technology)used to create the project
-            4. Short description about the project
-        -->
-            <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
-                 alt=" place holder image of a project"> 
-            <!--Snapshot of the project-->
-    <h3>Project 2</h3> <!-- Project name-->
-    <ul class="techs"> <!--list of web technologies used-->
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
-        hic corporis tempore eaque perferendis, voluptates consequatur autem 
-        omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
-        corrupti, unde in!</p>
-        </section>
-
-    </section>
-    <section class="project">
-        <!--
-            1. Snap shot of the project
-            2. Project Name
-            3. Technologies (list of web technology)used to create the project
-            4. Short description about the project
-        -->
-            <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
-                 alt=" place holder image of a project"> 
-            <!--Snapshot of the project-->
-    <h3>Project 3</h3> <!-- Project name-->
-    <ul class="techs"> <!--list of web technologies used-->
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
-        hic corporis tempore eaque perferendis, voluptates consequatur autem 
-        omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
-        corrupti, unde in!</p>
-        </section>
-
-    </section>
-    <section class="project">
-        <!--
-            1. Snap shot of the project
-            2. Project Name
-            3. Technologies (list of web technology)used to create the project
-            4. Short description about the project
-        -->
-            <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
-                 alt=" place holder image of a project"> 
-            <!--Snapshot of the project-->
-    <h3>Project 4</h3> <!-- Project name-->
-    <ul class="techs"> <!--list of web technologies used-->
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
-        hic corporis tempore eaque perferendis, voluptates consequatur autem 
-        omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
-        corrupti, unde in!</p>
-        </section>
-
-    </section>
-    <section class="project">
-        <!--
-            1. Snap shot of the project
-            2. Project Name
-            3. Technologies (list of web technology)used to create the project
-            4. Short description about the project
-        -->
-            <img src="https://media.istockphoto.com/id/1206894444/photo/gmer-concept-gamepad-with-headphones-80s-synth-wave-and-retrowave-glowing-triangle-futuristic.jpg?s=612x612&w=0&k=20&c=ExUFUnRaB2XHAVbsKkFXha7w3N-D6JcmYyh_3dLzUXM="
-                 alt=" place holder image of a project"> 
-            <!--Snapshot of the project-->
-    <h3>Project 5</h3> <!-- Project name-->
-    <ul class="techs"> <!--list of web technologies used-->
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
-    <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, 
-        hic corporis tempore eaque perferendis, voluptates consequatur autem 
-        omnis illum tempora sequi nemo? Expedita non doloremque deleniti sint
-        corrupti, unde in!</p>
-        </section>
 
     </section>
     <footer>
